@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="all.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <title>Adminka</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="navbar navbar-inverse">
+            <div class="col-sm-3">
+                <h2 class="text-white pull-left" href="#">KAdmin</h2>
+
+                <a href="#" class="pull-right"><i class="fa fa-bars"></i></a>
+            </div>
+
+            <div class="col-sm-2 pull-left input-group">
+                <input type="text" class="form-control" placeholder="Search here...">
+                <a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a>
+            </div>
+
+            <div class="col-sm-offset-2 col-sm-5 profile-menu">
+                <ul class="nav nav-pills pull-right" role="tablist">
+                    <li>
+                        <a href="#"><span class="badge badge-bell">3</span>
+                            <i class="fa fa-bell text-white"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="badge badge-envelope">7</span>
+                            <i class="fa fa-envelope text-white"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="badge badge-server">8</span>
+                            <i class="fa fa-server text-white"></i>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <img src="img/user-link.png" alt="User" class="user-ava img-circle">
+                        <p class="text-white user-name">Robert John
+                            <a href="#"><span class="caret"></span></a>
+                        </p>
+                    </li>
+
+                    <li>
+                        <a href="#"><span class="badge badge-comments">3</span>
+                            <i class="fa fa-comments text-white"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+        <aside class="col-sm-2" style="padding-right: 0;">
+            <ul class="nav nav-pills nav-stacked navbar-inverse">
+                <li class="active">
+                    <a href="#">
+                        <i class="fa fa-table"></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-desktop"></i>
+                        Layouts
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-mouse-pointer"></i>
+                        UI Elements
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-pencil-square-o"></i>
+                        Forms
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-table"></i>
+                        Tables
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-columns"></i>
+                        Data Grids
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-file-o"></i>
+                        Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-gift"></i>
+                        Extras
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-sitemap"></i>
+                        Multi-Level Dropdown
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-envelope-o"></i>
+                        Email
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-bar-chart"></i>
+                        Charts
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-exclamation-triangle"></i>
+                        Error Pages
+                    </a>
+                </li>
+            </ul>
+        </aside>
+        <section class="content">
+
+            <button type="submit" class="fa fa-cog" data-toggle="modal" data-target="#myModal">
+                <i class="fa fa-cog"></i>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="status-bar row col-sm-12">
+                <h2 class="pull-left">Dashboard</h2>
+
+                <ol class="breadcrumb pull-right">
+                    <li><a href="#">
+                        <i class="fa fa-home"></i>
+                        Home</a>
+                    </li>
+                    <i class="fa fa-angle-right"></i>
+                    <li><a href="#">Dashboard</a></li>
+                </ol>
+            </div>
+
+            <div class="row">
+                <div class="box col-sm-2">
+                    <div class="box--text">
+                        <h2>189$</h2>
+                        <span>Profit description</span>
+                    </div>
+                    <i class="box--fa fa fa-shopping-cart text-right"></i>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">80% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box col-sm-2">
+                    <div class="box--text">
+                        <h2>739$</h2>
+                        <span>Income detail</span>
+                    </div>
+                    <i class="box--fa fa fa fa-money text-right"></i>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                            <span class="sr-only">60% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box col-sm-2">
+                    <div class="box--text">
+                        <h2>155</h2>
+                        <span>Task completed</span>
+                    </div>
+                    <i class="box--fa fa fa-signal text-right"></i>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+                            <span class="sr-only">50% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box col-sm-2">
+                    <div class="box--text">
+                        <h2>321</h2>
+                        <span>Vistor description</span>
+                    </div>
+                    <i class="box--fa fa fa-users text-right"></i>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                            <span class="sr-only">40% Complete (success)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="network-performance col-sm-6">
+                    <div class="graph col-sm-8">
+                        <h3>Network Performance</h3>
+                        <p>
+                            Set perspiciatis unde omnis iste natus error sit voluptatem...
+                        </p>
+                        <img src="img/graph.png" alt="Network Performance">
+                        <p class="graph-text">
+                            0<span style='padding-left:25px;'> </span>
+                            25<span style='padding-left:25px;'> </span>
+                            50<span style='padding-left:25px;'> </span>
+                            75<span style='padding-left:25px;'> </span>
+                            100<span style='padding-left:25px;'> </span>
+                            125<span style='padding-left:25px;'> </span>
+                            125<span style='padding-left:25px;'> </span>
+                            175</p>
+                    </div>
+                    <div class="server-status col=sm-2">
+                        <h3>Server Status</h3>
+
+                        <p>CPU Usage (25 - 32 cpus)<span class="pull-right">40%</span></p></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                <span class="sr-only">40% Complete (warning)</span>
+                            </div>
+                        </div>
+
+                        <p>Memory Usage (2.5GB)<span class="pull-right">60%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                <span class="sr-only">60% Complete (warning)</span>
+                            </div>
+                        </div>
+
+                        <p>Disk Usage (C:\ 120GB, D:\ <br>
+                            430GB)<span class="pull-right">55%</span></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 55%">
+                                <span class="sr-only">55% Complete (warning)</span>
+                            </div>
+                        </div>
+
+                        <p>Domain (2/5)<span class="pull-right">66%</span></p></p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 66%">
+                                <span class="sr-only">66% Complete (warning)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chats col-sm-3">
+                    <h3>Chats</h3>
+
+                    <div class="massage1">
+                        <a href="#"><img src="img/user-link.png" alt="User" class="img-circle pull-left"></a>
+                        <p>
+                            <span style="color: #d95250">Admin</span>
+                            <i>at July 06,2014 17:06</i><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+
+                    <div class="massage2 text-right">
+                        <a href="#"><img src="img/user-link.png" alt="User" class="img-circle pull-right"></a>
+                        <p>
+                            <span style="color: #d95250">Admin</span>
+                            <i>at July 06,2014 18:06</i><br>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <footer>
+            <a href="#">&copy Copyright 2015</a>
+        </footer>
+    </div>
+</body>
+</html>
